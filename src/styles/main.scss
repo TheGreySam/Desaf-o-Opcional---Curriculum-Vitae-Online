@@ -1,0 +1,130 @@
+@import "abstract/vendorvariables";
+@import "vendors/bootstrap/bootstrap";
+
+
+@import "abstract/variables";
+
+body {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+}
+
+hr {
+  border: 1px;
+  border-color: rgba(0, 0, 0, .2);
+  border-style: solid;
+  margin: 10pt;
+  margin-top: 150pt;
+  margin-bottom: 100pt;
+}
+
+article {
+  padding-top: 50pt;
+}
+.sidenav {
+
+  width: 200px;
+
+  background-color: #7CEA9C;
+    padding-top: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.sidebar {
+  background-color: #7CEA9C;
+  color: #071013;
+  font-size: 14pt;
+  text-align: center;
+  padding: 10px;
+  img {
+    width: 20%;
+  }
+}
+.navbar {
+  background-color: #7CEA9C;
+  color: #071013;
+  font-size: 15pt;
+  text-align: center;
+
+  img {
+    width: 80%;
+  }
+}
+
+.nav-link {
+  text-transform: uppercase;
+  color: #071013;
+}
+.nav-link:hover {
+  color: #FFFFFF;
+}
+.nav-link:checked {
+  color: #071013;
+}
+.acercademi {
+  padding: 10pt;
+  padding-top: 200pt;
+
+
+  h1 {
+    font-size: 30pt;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-size: 14pt;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  p {
+    text-transform: lowercase;
+    color: black;
+  }
+  .texto {
+    padding-top: 50pt;
+  }
+  .logos {
+    padding-top: 20pt;
+    i {
+      padding: 10pt;
+    }
+  }
+}
+.seccion {
+  padding: 10pt;
+  color: #2D3047;
+  .tituloseccion {
+    font-size: 30pt;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-size: 22pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    p {
+      font-size: 14pt;
+      font-weight: normal;
+    }
+  }
+  h2 {
+    font-size: 14pt;
+    font-weight: normal;
+  }
+  p {
+    text-transform: lowercase;
+    color: black;
+  }
+  .logos {
+    padding-top: 20pt;
+    i {
+      padding: 10pt;
+    }
+  }
+  .texto {
+    padding-top: 30pt;
+  }
+}
